@@ -1,0 +1,18 @@
+{
+    "app": "pvcshademan",
+    "platform": "docker",
+    "port": 8501,
+
+
+    "disks": [
+        {
+            "name": "data",
+            "mountTo": "/usr/src/app/data"
+        },
+        {
+            "name": "sql",
+            "mountTo": "/usr/src/app/sql"
+        }
+    ]
+  }
+  
